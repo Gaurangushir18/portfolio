@@ -70,7 +70,7 @@ img { max-width: 100%; }
 .about-layout { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); align-items: center; gap: 30px; }
 .about-card, .info-panel { padding: 30px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(145deg, #1b2a38, #17222e); }
 .about-card h3 { margin: 0 0 14px; font-size: 21px; letter-spacing: -.04em; }
-.about-card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
+.about-card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.8; text-align: justify; }
 .about-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .about-highlight { padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: #ffffff06; }
 .about-highlight strong { display: block; margin-bottom: 6px; color: var(--cyan); font-size: 14px; }
@@ -84,6 +84,9 @@ img { max-width: 100%; }
 .project-num { color: #8190a0; font-size: 11px; }
 .project h3 { margin: 27px 0 9px; font-size: 19px; letter-spacing: -.035em; }
 .project p { margin: 0; color: #abb7c4; font-size: 12px; line-height: 1.7; }
+.project-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 17px; padding: 14px; border: 1px solid #ffffff20; border-radius: 12px; background: #0b0f12; }
+.project-stat strong { display: block; margin-bottom: 20px; color: var(--cyan); font-size: 20px; }
+.project-stat span { display: block; color: #d4dce5; font-size: 12px; line-height: 1.4; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 18px; }
 .tag { padding: 5px 7px; border: 1px solid #ffffff14; border-radius: 5px; background: #ffffff07; color: #bdc9d6; font-size: 9px; font-weight: 700; }
 .project-link, .read-link { display: inline-block; margin-top: 15px; color: #58d6f2; font-size: 11px; font-weight: 750; }
@@ -107,9 +110,8 @@ img { max-width: 100%; }
 .experience-content p, .education-entry p { margin: 0; color: #aab6c3; font-size: 11px; line-height: 1.6; }
 .experience-skill { display: inline-block; margin-top: 8px; padding: 4px 7px; border: 1px solid #ffffff16; border-radius: 5px; color: #b8c5d2; font-size: 10px; }
 .education-entry { display: flex; align-items: flex-start; gap: 13px; padding: 15px; border: 1px solid #ffffff12; border-radius: 10px; background: #ffffff04; }
-.education-logo, .education-mark { flex: 0 0 48px; width: 48px; height: 48px; border-radius: 7px; }
+.education-logo { flex: 0 0 48px; width: 48px; height: 48px; border-radius: 7px; }
 .education-logo { object-fit: contain; background: #fff; }
-.education-mark { display: grid; place-items: center; background: #e8ede8; color: #647168; font-size: 11px; font-weight: 750; }
 .education-content { min-width: 0; }
 .skills { display: grid; gap: 14px; }
 .skill-row strong { display: block; margin-bottom: 8px; color: #e2ebf5; font-size: 11px; }
